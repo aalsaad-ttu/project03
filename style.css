@@ -1,1 +1,109 @@
-Add consistent styling
+/* Project 03 - Shared Stylesheet (single CSS file for all pages) */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #f3efe6; /* still-life vibe */
+  color: #3e3e3e;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+}
+
+/* Layout */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header */
+.site-header {
+  background-color: #ffffff;
+  border-bottom: 1px solid #ddd;
+}
+
+.site-title {
+  margin: 0;
+  color: #4a3b2a;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 2rem;
+}
+
+.site-tagline {
+  margin: 8px 0 0;
+  color: #6b7354;
+}
+
+/* Nav */
+.nav {
+  margin-top: 14px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.nav-link {
+  text-decoration: none;
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  color: #4a3b2a;
+  background-color: #fff;
+}
+
+.nav-link:hover {
+  border-color: #4a3b2a;
+}
+
+.nav-link.active {
+  background-color: #4a3b2a;
+  color: #ffffff;
+  border-color: #4a3b2a;
+}
+
+/* Cards */
+.card {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 18px;
+  margin: 18px 0;
+}
+
+h2 {
+  margin-top: 0;
+  color: #6b7354;
+  font-size: 1.25rem;
+}
+
+/* Links + button */
+a {
+  color: #4a3b2a;
+}
+
+.button {
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: 1px solid #4a3b2a;
+  background-color: #4a3b2a;
+  color: #ffffff;
+}
+
+.button:hover {
+  opacity: 0.9;
+}
+
+/* Footer */
+.site-footer {
+  padding: 20px 0;
+}
+
+.muted {
+  color: #666;
+  font-size: 0.95rem;
+}
