@@ -1,2 +1,68 @@
-<link rel="stylesheet" href="style.css">
-<a href="about.html">About</a>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Project 03 | Home</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <h1 class="site-title">Project 03: [Your Website Topic]</h1>
+        <p class="site-tagline">A simple two-page website built with HTML + CSS.</p>
+
+        <nav class="nav">
+          <a class="nav-link active" href="index.html">Home</a>
+          <a class="nav-link" href="about.html">About</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="card">
+        <h2>Welcome</h2>
+        <p>
+          Hi! This is my Project 03 website. I’ll use it to share information about
+          <strong>[your topic]</strong>. This page is the homepage.
+        </p>
+        <p>
+          Replace this text with a short intro: who the site is for, what it covers, and
+          what someone will find here.
+        </p>
+      </section>
+
+      <section class="card">
+        <h2>What You’ll Find Here</h2>
+        <ul>
+          <li><strong>[Item 1]</strong> — short description.</li>
+          <li><strong>[Item 2]</strong> — short description.</li>
+          <li><strong>[Item 3]</strong> — short description.</li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <h2>Quick Links</h2>
+        <p>
+          <a class="button" href="about.html">Go to About Page</a>
+        </p>
+        <p class="muted">
+          Optional: Add a link to your GitHub profile here:
+          <a href="https://github.com/aalsaad-ttu">https://github.com/aalsaad-ttu</a>
+        </p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p class="muted">© <span id="year"></span> [Your Name]. Built for Project 03.</p>
+      </div>
+    </footer>
+
+    <script>
+      // Small quality-of-life script (optional). Remove if your class forbids JS.
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
